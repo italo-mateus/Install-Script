@@ -18,6 +18,10 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 
 wget -c https://az764295.vo.msecnd.net/stable/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/code_1.79.0-1686149120_amd64.deb
 
+#Download Discord
+
+wget -c https://discord.com/api/download?platform=linux&format=deb
+
 #Instala os programas .deb baixados
 
 sudo dpkg -i *.deb 
@@ -42,6 +46,16 @@ apt --fixbroken install
 sudo apt update &&sudo apt upgrade -s
 
 sudo apt install github-desktop
+
+#instalar o NodeJS
+
+sudo apt install nodejs
+
+apt --fixbroken install
+sudo apt update &&sudo apt upgrade -s
+
+
+
 
 
 
